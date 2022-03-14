@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+* {
+    font-family: "Kaushan Script", cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.accueil {
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/img/japon\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-1 {
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: #444554;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    
+    /* Centred */
+}
+
+td img{
+    padding-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.select {
+    color: whitesmoke;
+    border-radius: 10%;
+    size: 18px;
+}
+
+#shifumi-select {
+    align-items: center;
+    cursor: auto;
+}
+
+#titre {
+    text-shadow: #ccc 3px 3px 3px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+#titre:hover {
+    text-shadow: #aaa 6px 6px 6px;
+}
+
+#players {
+    text-shadow: #ccc 1px 1px 1px;
+
+    font-size: 30px;
+}
+
+#players:hover {
+    text-shadow: #444554 1px 1px 1px;
+}
+
+
+
